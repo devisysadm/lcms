@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "280vqkGyd4fv+K0loqQzo6n2HGf9wo87Nvzz1GvFXTnQuGcWEiXtMGk9yJLl7M50MyytXLk13JuSrsfWrzAHUw==",
+  "success": false,
+  "projectFilePath": "D:\\Projects\\New-CICD\\nopCommerce_4.60.4_Source\\src\\Plugins\\Nop.Plugin.DiscountRules.CustomerRoles\\Nop.Plugin.DiscountRules.CustomerRoles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\devi.singh\\.nuget\\packages\\advancedstringbuilder\\0.1.0\\advancedstringbuilder.0.1.0.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\ligershark.weboptimizer.core\\3.0.372\\ligershark.weboptimizer.core.3.0.372.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\nuglify\\1.20.4\\nuglify.1.20.4.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\webmarkupmin.aspnet.common\\2.13.0\\webmarkupmin.aspnet.common.2.13.0.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\webmarkupmin.aspnetcore7\\2.13.5\\webmarkupmin.aspnetcore7.2.13.5.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\webmarkupmin.core\\2.13.0\\webmarkupmin.core.2.13.0.nupkg.sha512",
+    "C:\\Users\\devi.singh\\.nuget\\packages\\webmarkupmin.nuglify\\2.13.5\\webmarkupmin.nuglify.2.13.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\Projects\\New-CICD\\nopCommerce_4.60.4_Source\\src\\Libraries\\Nop.Core\\Nop.Core.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\Projects\\New-CICD\\nopCommerce_4.60.4_Source\\src\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\Projects\\New-CICD\\nopCommerce_4.60.4_Source\\src\\Libraries\\Nop.Data\\Nop.Data.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\Projects\\New-CICD\\nopCommerce_4.60.4_Source\\src\\Libraries\\Nop.Data\\Nop.Data.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\Projects\\New-CICD\\nopCommerce_4.60.4_Source\\src\\Libraries\\Nop.Services\\Nop.Services.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\Projects\\New-CICD\\nopCommerce_4.60.4_Source\\src\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
