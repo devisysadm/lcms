@@ -13,6 +13,9 @@ pool:
     command: 'build'
 - task: UseDotNet@2
   inputs:
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
     packageType: 'sdk'
     version: 
 
