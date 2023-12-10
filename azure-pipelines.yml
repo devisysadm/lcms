@@ -1,3 +1,4 @@
-- task: DotNetCoreCLI@2
+- task: UseDotNet@2
   inputs:
-    command: 'build'
+    packageType: 'sdk'
+    version: 
