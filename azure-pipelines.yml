@@ -1,3 +1,31 @@
-- task: DotNetCoreCLI@2
+trigger:
+  branches:
+    exclude:
+      - '*'
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+- task: UseDotNet@2
   inputs:
-    command: 'build'
+    packageType: 'sdk'
+    version: '3.x'
+
+- script: dotnet restore
+  displayName: 'Restore NuGet Packages'
+
+- script: dotnet build --configuration Release
+  displayName: 'Build Solution'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/src/Nop.Web'
+    Contents: '**/*.dll'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/Web'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)/Web'
+    artifactName: 'Web'
+    publishLocation: 'Container'
